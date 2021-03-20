@@ -7,7 +7,7 @@ link_libraries("-lczmq")
 link_libraries("-lzmq")
 link_libraries("-luuid")
 
-add_executable( broker broker.c)
+add_executable( TitanicBroker "TitanicPattern/TitanicBroker.c")
 add_executable(client client.c)
 add_executable(clientCurve clientCurve.c)
 add_executable(clientAsynchronous clientAsynchronous.c)

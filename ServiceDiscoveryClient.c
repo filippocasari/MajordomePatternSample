@@ -6,6 +6,7 @@
 //  Lets us build this source without creating a library
 #include "include/idcliapi.h"
 
+
 int main(int argc, char *argv[]) {
 
     int verbose = (argc > 1 && streq (argv[1], "-v"));
