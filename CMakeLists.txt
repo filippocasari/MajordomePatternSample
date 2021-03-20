@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.7)
+project(MajordomePatternSample)
+
+set(CMAKE_CXX_STANDARD 14)
+add_library(include STATIC broker.c client.c workerA.c workerAcurve.c clientCurve.c clientAsynchronous.c ServiceDiscoveryClient.c)
+link_libraries("-lczmq")
+link_libraries("-lzmq")
+
+add_executable( broker broker.c)
+add_executable(client client.c)
+add_executable(clientCurve clientCurve.c)
+add_executable(clientAsynchronous clientAsynchronous.c)
+add_executable(workerA workerA.c)
+add_executable(workerB workerB.c)
+add_executable(workerACurve workerAcurve.c)
+add_executable(ServiceDiscovery ServiceDiscoveryClient.c)
