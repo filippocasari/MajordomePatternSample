@@ -44,6 +44,7 @@ int main(int argc, char *argv[])
     zcert_t *c = zcert_new();
     zcert_save_public(c, CERTDIR"/worker_cert.txt");
 
+
     const char *worker_public = zcert_public_txt(c);
     const char *worker_secret = zcert_secret_txt(c);
     const char *server_public = ".8Q^k*3E/4-Wg4()r^(4yTk2>qvZFDW?mXUyRPvr";

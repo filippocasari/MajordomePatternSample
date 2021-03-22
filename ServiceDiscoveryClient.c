@@ -36,6 +36,8 @@ int main(int argc, char *argv[]) {
         zmsg_pushstr(request, "I've discovered you!");
         reply = idcli_send(session, "coffee", &request);
 
+
+
     }
 
     end = zclock_time() - start;
