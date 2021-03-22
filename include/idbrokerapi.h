@@ -567,7 +567,7 @@ int s_broker_loop(broker_t *self)
                 break; //  Interrupted
             if (self->_verbose)
             {
-                zclock_log("I: received message:");
+                zclock_log("\nI: received message:");
                 zmsg_dump(msg);
                 zmsg_print(msg);
             }

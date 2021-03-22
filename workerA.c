@@ -9,7 +9,7 @@
 
 //Random string for identity
 
-#define NUM_WORKERS 5
+#define NUM_WORKERS 1
 int main (int argc, char *argv [])
 {
     //int verbose = (argc > 1 && streq (argv [1], "-v"));

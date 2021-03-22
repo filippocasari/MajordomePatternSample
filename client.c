@@ -7,7 +7,7 @@
 #include "include/idcliapi.h"
 #include <uuid/uuid.h>
 
-#define NUM_CLIENTS 10
+#define NUM_CLIENTS 5
 
 static void
 client_task(zsock_t *pipe, void *args);
@@ -17,6 +17,9 @@ int main(int argc, char *argv[]) {
     zactor_t *clients[NUM_CLIENTS];
     for (int i = 0; i < NUM_CLIENTS; i++) {
         clients[i] = zactor_new(client_task, NULL);
+        if(zctx_interrupted){
+            zclock_log("error signal handled...");
+        }
 
     }
     for (int i = 0; i < NUM_CLIENTS; i++) {

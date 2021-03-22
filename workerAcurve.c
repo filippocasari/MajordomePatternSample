@@ -47,7 +47,17 @@ int main(int argc, char *argv[])
 
     const char *worker_public = zcert_public_txt(c);
     const char *worker_secret = zcert_secret_txt(c);
-    const char *server_public = ".8Q^k*3E/4-Wg4()r^(4yTk2>qvZFDW?mXUyRPvr";
+
+
+    const char *server_public;
+    if (zsys_file_exists(".curveServer/server_cert.txt")) {
+        zcert_t *server_cert = zcert_load(".curveServer/server_cert.txt");
+        server_public = zcert_public_txt(server_cert);
+    } else {
+        zsys_error("No server public key...exit");
+        return 2;
+    }
+    //const char *server_public = ".8Q^k*3E/4-Wg4()r^(4yTk2>qvZFDW?mXUyRPvr";
 
     idwrk_setup_curve(session, worker_public, worker_secret, server_public);
 
@@ -63,7 +73,7 @@ int main(int argc, char *argv[])
         if (request == NULL)
             break; //  Worker was interrupted
 
-         //  Echo is complex... :-)
+
     }
     idwrk_destroy(&session);
     zcert_destroy(&c);
