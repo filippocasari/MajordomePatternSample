@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MajordomePatternSample"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clientAsynchronous">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/clientAsynchronous" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clientAsynchronous"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clientAsynchronous/fast">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/clientAsynchronous" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clientAsynchronous/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="workerACurve">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/workerACurve" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 workerACurve"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="workerACurve/fast">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/workerACurve" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 workerACurve/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clientSynchronous">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/clientSynchronous" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clientSynchronous"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clientSynchronous/fast">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/clientSynchronous" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clientSynchronous/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MajordomoBroker">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/MajordomoBroker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 MajordomoBroker"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MajordomoBroker/fast">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/MajordomoBroker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 MajordomoBroker/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="workerB">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/workerB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 workerB"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="workerB/fast">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/workerB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 workerB/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clientCurve">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/clientCurve" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clientCurve"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clientCurve/fast">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/clientCurve" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clientCurve/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="include">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/libinclude.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 include"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="include/fast">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/libinclude.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 include/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="workerA">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/workerA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 workerA"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="workerA/fast">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/workerA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 workerA/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ServiceDiscovery">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/ServiceDiscovery" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 ServiceDiscovery"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ServiceDiscovery/fast">
+				<Option output="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/ServiceDiscovery" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 ServiceDiscovery/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/ServiceDiscoveryClient.c">
+			<Option target="include"/>
+			<Option target="ServiceDiscovery"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/broker.c">
+			<Option target="MajordomoBroker"/>
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/client.c">
+			<Option target="clientSynchronous"/>
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/clientAsynchronous.c">
+			<Option target="clientAsynchronous"/>
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/clientCurve.c">
+			<Option target="clientCurve"/>
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/workerA.c">
+			<Option target="include"/>
+			<Option target="workerA"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/workerAcurve.c">
+			<Option target="workerACurve"/>
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/workerB.c">
+			<Option target="workerB"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/workerTask.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/utente/CLionProjects/MajordomePatternSample/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
