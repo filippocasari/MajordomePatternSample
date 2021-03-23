@@ -5,13 +5,15 @@
 
 //  Lets us build this source without creating a library
 #include "include/idcliapi.h"
-
+// raspberry endpoint : "tcp//:192.168.0.113:5555"
+//localhost : "tcp//:127.0.0.1:5555"
+#define BROKER_ENDPOINT  "tcp//:127.0.0.1:5555"
 
 int main(int argc, char *argv[]) {
     int verbose = (argc > 1 && streq (argv[1], "-v"));
     verbose = 1;
 
-    idcli_t *session = idcli_new("tcp://localhost:5001", "ClientCurve", verbose);
+    idcli_t *session = idcli_new(BROKER_ENDPOINT, "ClientCurve", verbose);
     //@create new certificate for the client and store it
     zcert_t *client_cert = zcert_new();
     zsys_file_mode_private();

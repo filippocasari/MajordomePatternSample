@@ -6,7 +6,9 @@
 //  Lets us build this source without creating a library
 #include "include/idwrkapi.h"
 #define CERTDIR "./cert_store"
-
+// raspberry endpoint : "tcp//:192.168.0.113:5001"
+//localhost : "tcp//:127.0.0.1:5555"
+#define BROKER_ENDPOINT_SECURE  "tcp//:127.0.0.1:5001"
 
 //Random string for identity
 char *rand_string(char *str, size_t size)
@@ -39,7 +41,7 @@ int main(int argc, char *argv[])
     rand_string(random_part, 5);
     strcat(identity,random_part);
 
-    idwrk_t *session = idwrk_new("tcp://127.0.0.1:5001", "coffeeCurve", identity, verbose);
+    idwrk_t *session = idwrk_new(BROKER_ENDPOINT_SECURE, "coffeeCurve", identity, verbose);
     idwrk_set_heartbeat(session, 7500);
     zcert_t *c = zcert_new();
     zcert_save_public(c, CERTDIR"/worker_cert.txt");

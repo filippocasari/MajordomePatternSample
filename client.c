@@ -6,7 +6,9 @@
 //  Lets us build this source without creating a library
 #include "include/idcliapi.h"
 #include <uuid/uuid.h>
-
+// raspberry endpoint : "tcp//:192.168.0.113:5000"
+//localhost : "tcp//:127.0.0.1:5000"
+#define BROKER_ENDPOINT  "tcp//:127.0.0.1:5000"
 #define NUM_CLIENTS 5
 
 static void
@@ -42,7 +44,7 @@ client_task(zsock_t *pipe, void *args) {
     char uuid_str[37];
     uuid_unparse_upper(uuid, uuid_str);
     zclock_log("UUID CLIENT: %s", uuid_str);
-    idcli_t *session = idcli_new("tcp://127.0.0.1:5000", uuid_str, verbose);
+    idcli_t *session = idcli_new(BROKER_ENDPOINT, uuid_str, verbose);
 
     idcli_connect_to_broker(session);
 

@@ -5,11 +5,13 @@
 
 //  Lets us build this source without creating a library
 #include "include/idcliapi.h"
-
+// raspberry endpoint : "tcp//:192.168.0.113:5000"
+//localhost : "tcp//:127.0.0.1:5000"
+#define BROKER_ENDPOINT  "tcp//:127.0.0.1:5000"
 int main(int argc, char *argv[]) {
     int verbose = (argc > 1 && streq (argv[1], "-v"));
     verbose = 1;
-    idcli_t *session2 = idcli_new2("tcp://127.0.0.1:5000", "ClientAsynchronous", verbose);
+    idcli_t *session2 = idcli_new2(BROKER_ENDPOINT, "ClientAsynchronous", verbose);
 
     idcli_connect_to_broker(session2);
 
