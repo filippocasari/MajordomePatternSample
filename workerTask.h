@@ -5,9 +5,9 @@
 #ifndef MAJORDOMEPATTERNSAMPLE_WORKERTASK_H
 #define MAJORDOMEPATTERNSAMPLE_WORKERTASK_H
 // raspberry endpoint : "tcp//:192.168.0.113:5001"
-//localhost : "tcp//:127.0.0.1:5555"
-#define BROKER_ENDPOINT_SECURE  "tcp//:127.0.0.1:5001"
-#define BROKER_ENDPOIN_PLAIN "tcp://127.0.0.1:5000"
+//localhost : "tcp//:127.0.0.1:5000"
+#define BROKER_ENDPOINT_SECURE  "tcp://127.0.0.1:5001"
+#define BROKER_ENDPOIN_PLAIN "tcp://192.168.0.113:5000"
 
 char *rand_string(char *str, size_t size)
 {
@@ -36,7 +36,7 @@ workerTask(zsock_t *pipe, void *args){
         rand_string(random_part, 5);
         strcat(identity,random_part);
         zclock_log("Worker %s",identity);
-        int verbose=0;
+        int verbose=1;
         idwrk_t *session = idwrk_new (
         BROKER_ENDPOIN_PLAIN, "coffee", identity, verbose);
         idwrk_set_heartbeat(session, 7500);

@@ -5,9 +5,9 @@
 
 //  Lets us build this source without creating a library
 #include "include/idcliapi.h"
-// raspberry endpoint : "tcp//:192.168.0.113:5001"
-//localhost : "tcp//:127.0.0.1:5555"
-#define BROKER_ENDPOINT_PLAIN  "tcp//:127.0.0.1:5000"
+// raspberry endpoint : "tcp://192.168.0.113:5001"
+//localhost : "tcp://127.0.0.1:5000"
+#define BROKER_ENDPOINT_PLAIN   "tcp://192.168.0.113:5000"
 
 int main(int argc, char *argv[]) {
 

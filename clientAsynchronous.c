@@ -5,9 +5,9 @@
 
 //  Lets us build this source without creating a library
 #include "include/idcliapi.h"
-// raspberry endpoint : "tcp//:192.168.0.113:5000"
-//localhost : "tcp//:127.0.0.1:5000"
-#define BROKER_ENDPOINT  "tcp//:127.0.0.1:5000"
+// raspberry endpoint : "tcp://192.168.0.113:5000"
+//localhost : "tcp://127.0.0.1:5000"
+#define BROKER_ENDPOINT  "tcp://192.168.0.113:5000"
 int main(int argc, char *argv[]) {
     int verbose = (argc > 1 && streq (argv[1], "-v"));
     verbose = 1;
@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
     start = zclock_time();
     for (count = 0; count < 200; count++) {
         request = zmsg_new();
-        int succ = zmsg_pushstr(request, "I wanna a secure coffee");
+        int succ = zmsg_pushstr(request, "I wanna a coffee");
         if (succ == -1) {
             puts("ERROR ");
         }
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
     end = zclock_time() - start;
 
     printf("%d requests/replies processed\n", count);
-    printf("Time for Synchronous Client is : %ld ms", end);
+    printf("Time for Asynchronous Client is : %ld ms", end);
     idcli_destroy(&session2);
     return 0;
 }

@@ -6,10 +6,10 @@
 //  Lets us build this source without creating a library
 #include "include/idcliapi.h"
 #include <uuid/uuid.h>
-// raspberry endpoint : "tcp//:192.168.0.113:5000"
-//localhost : "tcp//:127.0.0.1:5000"
-#define BROKER_ENDPOINT  "tcp//:127.0.0.1:5000"
-#define NUM_CLIENTS 5
+// raspberry endpoint : "tcp://192.168.0.113:5000"
+//localhost : "tcp://127.0.0.1:5000"
+#define BROKER_ENDPOINT  "tcp://192.168.0.113:5000"
+#define NUM_CLIENTS 1
 
 static void
 client_task(zsock_t *pipe, void *args);
@@ -73,4 +73,5 @@ client_task(zsock_t *pipe, void *args) {
     zclock_log("%d requests/replies processed", count);
     zclock_log("Time for Synchronous Client is : %ld ms\n", end);
     idcli_destroy(&session);
+
 }
